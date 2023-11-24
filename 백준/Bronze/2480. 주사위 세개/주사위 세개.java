@@ -2,12 +2,12 @@ import java.util.Scanner;
  
 public class Main {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
  
 		int a, b, c;
-		a = in.nextInt();
-		b = in.nextInt();
-		c = in.nextInt();
+		a = s.nextInt();
+		b = s.nextInt();
+		c = s.nextInt();
  
 		// 만약 모든 변수가 다른 경우
 		if (a != b && b != c && a != c) {
